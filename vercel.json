@@ -1,4 +1,6 @@
 {
+  "buildCommand": "hugo",
+  "outputDirectory": "public",
   "github": {
     "silent": true
   }
