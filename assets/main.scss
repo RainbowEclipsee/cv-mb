@@ -1,20 +1,22 @@
 $backgroundLight: #fff;
 $accentColorLight: #0d480b;
 $headerBgColorLight: #0b480e;
+$circleAccentColorLight: #095b00;
 $headerTextColorLight: #fff;
 $sidebarBgColorLight: #cddfce;
 $sidebarTextColorLight: #000;
-$sidebarSkillsBgColorLight: #8d9da7;
+$sidebarSkillsBgColorLight: #8da795;
 $bodyBgColorLight: #fff;
 $bodyTextColorLight: #000;
 
 $backgroundDark: #1b1b1b;
-$accentColorDark: #98d59b;
+$accentColorDark: #6cd571;
 $headerBgColorDark: #0b480e;
+$circleAccentColorDark: #2dd836;
 $headerTextColorDark: #eceff4;
 $sidebarBgColorDark: #232e24;
 $sidebarTextColorDark: #eceff4;
-$sidebarSkillsBgColorDark: #303c40;
+$sidebarSkillsBgColorDark: #304033;
 $bodyBgColorDark: #1b1b1b;
 $bodyTextColorDark: #eceff4;
 
@@ -32,6 +34,7 @@ $bodyTextColorDark: #eceff4;
 html {
   --background: #{$backgroundLight};
   --accentColor: #{$accentColorLight};
+  --circleAccentColor: #{$circleAccentColorLight};
   --headerBgColor: #{$headerBgColorLight};
   --headerTextColor: #{$headerTextColorLight};
   --sidebarBgColor: #{$sidebarBgColorLight};
@@ -50,6 +53,7 @@ html {
 html.dark {
   --background: #{$backgroundDark};
   --accentColor: #{$accentColorDark};
+  --circleAccentColor: #{$circleAccentColorDark};
   --headerBgColor: #{$headerBgColorDark};
   --headerTextColor: #{$headerTextColorDark};
   --sidebarBgColor: #{$sidebarBgColorDark};
@@ -164,7 +168,7 @@ body {
   }
 
   .cv-skills-entry--rating-circle__active {
-    color: var(--accentColor);
+    color: var(--circleAccentColor);
   }
 
   .cv-skills-entry--rating-circle__inactive {
