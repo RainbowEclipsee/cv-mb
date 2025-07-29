@@ -1,4 +1,4 @@
-baseURL = 'https://cv.makarchuk-tech.vercel.app'
+baseURL = 'https://cv.makarchuk-tech.vercel.app/'
 languageCode = 'en-us'
 title = 'CV | Bogdan'
 disableKinds = ["taxonomy", "term"]
