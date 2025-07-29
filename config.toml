@@ -1,0 +1,17 @@
+baseURL = 'https://cv.makarchuk-tech.vercel.app'
+languageCode = 'en-us'
+title = 'CV | Bogdan'
+disableKinds = ["taxonomy", "term"]
+
+defaultContentLanguage = 'en'
+[languages]
+  [languages.en]
+    languageName = "English"
+    weight = 1
+    [languages.en.params]
+      datasource = 'content.en'
+  [languages.ru]
+    languageName = "Russian"
+    weight = 2
+    [languages.ru.params]
+      datasource = 'content.ru'

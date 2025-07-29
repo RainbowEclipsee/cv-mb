@@ -1,0 +1,137 @@
+name: Bogdan Makarchuk
+
+sidebar:
+  contact:
+    email: makarchuk-bogdan@yandex.ru
+    location: "Saint Petersburg, Russian"
+    website: makarchuk-tech.vercel.app
+    github: rainbowEclipsee
+  skills:
+    - title: Programming
+      entry:
+        - name: JavaScript
+          rating: 4
+        - name: React
+          rating: 4
+        - name: Redux
+          rating: 3
+        - name: Next
+          rating: 3          
+        - name: NodeJS (& Express)
+          rating: 3
+        - name: HTML/CSS
+          rating: 4
+        - name: Vue
+          rating: 2
+        - name: SQL
+          rating: 3
+    - title: Operating Systems
+      entry:
+        - name: MacOS
+          rating: 4      
+        - name: Windows
+          rating: 4
+        - name: Linux
+          rating: 3
+    - title: Tools
+      entry:
+        - name: Git
+          rating: 5
+        - name: Docker
+          rating: 3
+    - title: Languages
+      entry:
+        - name: Russian
+          value: Native
+        - name: English
+          value: B1
+  misc: []
+
+sections:
+  jobs:
+    - name: |-
+        Informatics  
+        _Full Stack Developer_
+      location: "Ivanovo, Russia"
+      date: "October 2022 - August 2024"
+      description: |-
+       Responsibilities:
+        - Development of JS modules for maintaining electronic document management at Gazprom Transgaz Saint Petersburg
+        - Integration of the system with the external banking service Gazprombank via REST API.
+        - Participation in discussions of technical solutions and architecture with a team of 12 people.
+        - Code refactoring and adding new features to improve performance and long-term support of the system.
+
+       Achievements: 
+        - Redesigned the architecture of one of the key modules, which reduced data processing time by 30%.
+        - Optimized interaction with the server via REST API.
+        - Created more than 20 libraries of graphic elements for the vector graphics editor "ASMOgraf".
+        - Led a team of 7 people during the adaptation of the platform for the ALT Linux OS, ensuring the successful transfer of the system on time.      
+    - name: |-
+        IIS  
+        _React Frontend Developer_
+      location: "Ivanovo, Russia"
+      date: "May 2021 - June 2022"
+      description: |-
+       Responsibilities:
+        - Developing web applications and internal services on React, Redux, Next.js. 
+        - Creating and optimizing user interface components for client projects. 
+        - Developing an administrative panel for managing content on websites. 
+        - Adaptive and cross-browser layout. 
+        - Working with server data via REST API. 
+
+       Achievements: 
+        - Developed a set of reusable UI components, which accelerated interface development and simplified code support. 
+        - Improved page adaptability and layout, ensuring full compliance with Figma layouts and ease of use. 
+        - Helped the team fix bugs and refactor code, which reduced the number of critical errors in production.
+  projects:
+    - name: ASMOgraf 
+      date: "January 2024 - August 2024"
+      link: https://informatika37.ru/resheniya-asmo/asmo-graficheskiy-redaktor/
+      techstack:
+        icon: "fa-brands fa-js"
+        name: "JavaScript"
+      description: >-
+         Cross-platform vector graphics editor for solving engineering and business graphics problems.
+    - name: ASMO-Enterprise
+      date: "June 2023 - December 2023 "
+      link: https://informatika37.ru/resheniya-asmo/asmo-predpriyatie/
+      techstack:
+        icon: "fa-brands fa-js"
+        name: "JavaScript"
+      description: >-
+         "ASMO-enterprise" is a solution designed to automate all aspects of production and financial and economic activities of organizations.
+          It consists of several subsystems, the functionality of each of which will be considered in separate blocks.
+          The customer can choose a set of modules depending on the required capabilities of the system.
+    - name: ASMO-Documentflow
+      date: "February 2023 - October 2023"
+      link: https://informatika37.ru/resheniya-asmo/asmo-dokumentooborot/
+      techstack:
+        icon: "fa-brands fa-js"
+        name: "JavaScript"
+      description: >-
+          The software package is designed for the comprehensive automation of office work processes at the enterprise, work with electronic documents, 
+          including the processes of their creation, modification, approval, access control, life cycle management, as well as control of their execution. 
+          The mechanism of acceptance using an electronic digital signature (EDS) is supported.
+    - name: ClipFinance
+      date: "August 2021 - January 2022"
+      link: https://www.clip.finance/
+      techstack:
+        icon: "fa-brands fa-react"
+        name: "React, Redux, Next, JS, CSS"
+      description: >-
+           A modern web platform for buying and selling cryptocurrency. Implemented on the basis of the React/Redux + Next.js stack.
+           In the early stages of the project, I was engaged in the layout and development of the logic of components using the global Redux state manager.
+    - name: Enisey33.ru
+      date: "May 2021 - June 2021"
+      link: https://enisey33.ru/
+      techstack:
+        icon: "fa-brands fa-react"
+        name: "React, Redux, Next, JS, Strapi"
+      description: >-
+            A business website that allows you to get acquainted with the company's products, completed projects, get information about materials and leave a request for cooperation.
+            The site has an administrative panel managed via Strapi, which simplifies updating the catalog and news section for the administrator.
+            Adaptive layout to support various devices and high SEO optimization, configured using Next.
+  education:
+    - name: "Master of Civil Engineering and Architecture (ISPU)"
+      location: "Ivanovo, Russia"
+      date: "September 2014 - June 2020"

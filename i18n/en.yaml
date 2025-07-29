@@ -1,0 +1,9 @@
+section-header:
+  contact: Contact
+  skills: Skills
+  miscellaneous: Misc
+  education: Education
+  work: Professional Experience
+  projects: Projects
+projects:
+  footer-message: "... and many other small projects"
