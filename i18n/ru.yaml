@@ -1,20 +1,10 @@
-- id: contact
-  translation: Контакты
-
-- id: skills
-  translation: Навыки
-
-- id: miscellaneous
-  translation: Misc
-
-- id: education
-  translation: Образование
-
-- id: work
-  translation: Профессиональный опыт
-
-- id: projects
-  translation: Проекты
-
-- id: footer-message
-  translation: "... и много других небольших проектов"
+---
+section-header:
+  contact: Контакты
+  skills: Навыки
+  miscellaneous: Misc
+  education: Образование
+  work: Профессиональный опыт
+  projects: Проекты
+projects:
+  footer-message: ... и много других небольших проектов
