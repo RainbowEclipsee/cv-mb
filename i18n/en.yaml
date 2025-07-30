@@ -1,10 +1,20 @@
----
-section-header:
-  contact: Contact
-  skills: Skills
-  miscellaneous: Misc
-  education: Education
-  work: Professional Experience
-  projects: Projects
-projects:
-  footer-message: ... and many other small projects
+- id: section-header.contact
+  translation: Contact
+
+- id: section-header.skills
+  translation: Skills
+
+- id: section-header.miscellaneous
+  translation: Misc
+
+- id: section-header.education
+  translation: Education
+
+- id: section-header.work
+  translation: Professional Experience
+  
+- id: section-header.projects
+  translation: Projects
+
+- id: projects.footer-message
+  translation: "... and many other small projects"
