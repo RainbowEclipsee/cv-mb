@@ -76,17 +76,6 @@ body {
   margin-bottom: 4em;
 }
 
-ul {
-  list-style-type: disc;   
-  margin-left: 1em;
-  padding-left: 0;
-}
-
-li {
-  position: relative;
-  margin-bottom: 0.2em;
-}
-
 .cv {
   background-color: var(--bodyBgColor);
   color: var(--bodyTextColor);
@@ -319,4 +308,16 @@ button {
   .cv {
     height: 100%;
   }
+}
+
+
+ul {
+  list-style-type: disc !important;
+  list-style-position: outside !important;
+  margin-left: 1em !important;
+  padding-left: 0 !important;
+}
+
+li {
+  margin-bottom: 0.5em !important;
 }
