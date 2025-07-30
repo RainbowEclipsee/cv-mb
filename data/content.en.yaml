@@ -56,12 +56,14 @@ sections:
       date: "October 2022 - August 2024"
       description: |-
        Responsibilities:
+
         - Development of JS modules for maintaining electronic document management at Gazprom Transgaz Saint Petersburg
         - Integration of the system with the external banking service Gazprombank via REST API.
         - Participation in discussions of technical solutions and architecture with a team of 12 people.
         - Code refactoring and adding new features to improve performance and long-term support of the system.
 
        Achievements: 
+
         - Redesigned the architecture of one of the key modules, which reduced data processing time by 30%.
         - Optimized interaction with the server via REST API.
         - Created more than 20 libraries of graphic elements for the vector graphics editor "ASMOgraf".
@@ -73,6 +75,7 @@ sections:
       date: "May 2021 - June 2022"
       description: |-
        Responsibilities:
+
         - Developing web applications and internal services on React, Redux, Next.js. 
         - Creating and optimizing user interface components for client projects. 
         - Developing an administrative panel for managing content on websites. 
@@ -80,6 +83,7 @@ sections:
         - Working with server data via REST API. 
 
        Achievements: 
+       
         - Developed a set of reusable UI components, which accelerated interface development and simplified code support. 
         - Improved page adaptability and layout, ensuring full compliance with Figma layouts and ease of use. 
         - Helped the team fix bugs and refactor code, which reduced the number of critical errors in production.
