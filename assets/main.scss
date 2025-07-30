@@ -76,6 +76,17 @@ body {
   margin-bottom: 4em;
 }
 
+ul {
+  list-style-type: disc;   
+  margin-left: 1em;
+  padding-left: 0;
+}
+
+li {
+  position: relative;
+  margin-bottom: 0.2em;
+}
+
 .cv {
   background-color: var(--bodyBgColor);
   color: var(--bodyTextColor);
