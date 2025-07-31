@@ -1,24 +1,25 @@
 $backgroundLight: #fff;
-$accentColorLight: #0d480b;
-$headerBgColorLight: #0b480e;
-$circleAccentColorLight: #095b00;
+$accentColorLight: #0b3948;
+$headerBgColorLight: #0000ac;
 $headerTextColorLight: #fff;
-$sidebarBgColorLight: #cddfce;
+$sidebarBgColorLight: #cdd8df;
 $sidebarTextColorLight: #000;
-$sidebarSkillsBgColorLight: #8da795;
+$sidebarSkillsBgColorLight: #8d9da7;
 $bodyBgColorLight: #fff;
 $bodyTextColorLight: #000;
 
 $backgroundDark: #1b1b1b;
-$accentColorDark: #6cd571;
-$headerBgColorDark: #0b480e;
-$circleAccentColorDark: #2dd836;
+$accentColorDark: #98bed5;
+$headerBgColorDark: #000080;
 $headerTextColorDark: #eceff4;
-$sidebarBgColorDark: #232e24;
+$sidebarBgColorDark: #23252e;
 $sidebarTextColorDark: #eceff4;
-$sidebarSkillsBgColorDark: #304033;
+$sidebarSkillsBgColorDark: #303c40;
 $bodyBgColorDark: #1b1b1b;
 $bodyTextColorDark: #eceff4;
+
+$circleAccentColorLight: #0b3948;
+$circleAccentColorDark: #98bed5;
 
 @mixin breakpoint-sm {
   @media only screen and (max-width: 649px) {
